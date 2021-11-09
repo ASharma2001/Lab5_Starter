@@ -15,13 +15,13 @@ function init() {
     const value = e.target.value;
     if(value === 'car-horn') {
       audio.setAttribute('src', '/assets/audio/car-horn.mp3');
-      photo.src = '/assets/images/car-horn.svg';
+      photo.src = '/Lab5_Starter/assets/images/car-horn.svg';
     } else if(value === 'air-horn') {
       audio.setAttribute('src', '/assets/audio/air-horn.mp3');
-      photo.src = '/assets/images/air-horn.svg';
+      photo.src = '/Lab5_Starter/assets/images/air-horn.svg';
     } else {
       audio.setAttribute('src', '/assets/audio/party-horn.mp3');
-      photo.src = '/assets/images/party-horn.svg';
+      photo.src = '/Lab5_Starter/assets/images/party-horn.svg';
     }
   });
 
@@ -29,13 +29,13 @@ function init() {
     const value = e.target.value;
 
     if(value > 66) {
-      icon.src = "/assets/icons/volume-level-3.svg";
+      icon.src = "/Lab5_Starter//assets/icons/volume-level-3.svg";
     } else if (value > 33) {
-      icon.src = "/assets/icons/volume-level-2.svg";  
+      icon.src = "/Lab5_Starter//assets/icons/volume-level-2.svg";  
     } else if (value > 0) {
-      icon.src = "/assets/icons/volume-level-1.svg";
+      icon.src = "/Lab5_Starter//assets/icons/volume-level-1.svg";
     } else {
-      icon.src = "/assets/icons/volume-level-0.svg";
+      icon.src = "/Lab5_Starter//assets/icons/volume-level-0.svg";
     }
   });
 
