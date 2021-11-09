@@ -14,13 +14,13 @@ function init() {
   hornDropdown.addEventListener('input', (e) => {
     const value = e.target.value;
     if(value === 'car-horn') {
-      audio.setAttribute('src', '/assets/audio/car-horn.mp3');
+      audio.setAttribute('src', '/Lab5_Starter/assets/audio/car-horn.mp3');
       photo.src = '/Lab5_Starter/assets/images/car-horn.svg';
     } else if(value === 'air-horn') {
-      audio.setAttribute('src', '/assets/audio/air-horn.mp3');
+      audio.setAttribute('src', '/Lab5_Starter/assets/audio/air-horn.mp3');
       photo.src = '/Lab5_Starter/assets/images/air-horn.svg';
     } else {
-      audio.setAttribute('src', '/assets/audio/party-horn.mp3');
+      audio.setAttribute('src', '/Lab5_Starter/assets/audio/party-horn.mp3');
       photo.src = '/Lab5_Starter/assets/images/party-horn.svg';
     }
   });
