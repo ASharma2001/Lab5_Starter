@@ -29,13 +29,13 @@ function init() {
     const value = e.target.value;
 
     if(value > 66) {
-      icon.src = "/Lab5_Starter//assets/icons/volume-level-3.svg";
+      icon.src = "/Lab5_Starter/assets/icons/volume-level-3.svg";
     } else if (value > 33) {
-      icon.src = "/Lab5_Starter//assets/icons/volume-level-2.svg";  
+      icon.src = "/Lab5_Starter/assets/icons/volume-level-2.svg";  
     } else if (value > 0) {
-      icon.src = "/Lab5_Starter//assets/icons/volume-level-1.svg";
+      icon.src = "/Lab5_Starter/assets/icons/volume-level-1.svg";
     } else {
-      icon.src = "/Lab5_Starter//assets/icons/volume-level-0.svg";
+      icon.src = "/Lab5_Starter/assets/icons/volume-level-0.svg";
     }
   });
 
